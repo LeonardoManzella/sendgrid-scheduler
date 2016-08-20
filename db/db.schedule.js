@@ -1,5 +1,5 @@
 var db = require('diskdb');
-db = db.connect('/database', ['schedules']);
+db = db.connect('database', ['schedules']);
 
 module.exports = {
   saveJob: function(job) {
