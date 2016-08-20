@@ -16,16 +16,11 @@ To install dependencies enter project folder and run following command:
 npm install
 ```
 
-### 2) Start MongoDB
-
-To save job details in your MongoDB execute ```mongod``` 
-
-
-### 3) Run server
+### 2) Run server
 
 To run server execute:
 ```
-npm start
+node .
 ```
 
 ### EndPoints
