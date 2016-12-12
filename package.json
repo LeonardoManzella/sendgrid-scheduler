@@ -4,6 +4,7 @@
   "description": "A SendGrid Scheduler App",
   "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Karan K",
@@ -16,5 +17,22 @@
     "morgan": "^1.3.2",
     "node-schedule": "^0.1.13",
     "sendgrid": "^4.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karankohli13/sendgrid-scheduler.git"
+  },
+  "keywords": [
+    "sendgrid",
+    "sendgrid",
+    "job",
+    "sendgrid",
+    "schedule",
+    "schedule",
+    "emails"
+  ],
+  "bugs": {
+    "url": "https://github.com/karankohli13/sendgrid-scheduler/issues"
+  },
+  "homepage": "https://github.com/karankohli13/sendgrid-scheduler#readme"
 }

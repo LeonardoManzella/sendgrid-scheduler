@@ -1,13 +1,13 @@
 # SendGrid Scheduler
 
-REST API for scheduling mails with Sendgrid API using Node.js and Express.js framework with MongoDB.
+REST API for scheduling mails with Sendgrid API using Node.js and Express.js framework with DiskDB.
 
 A Job Scheduler that tasks up emails to be sent in future with a timestamp as input.
 Also added support for template engine of SendGrid Console.
 
 ## Running project
 
-You need to have installed Node.js and MongoDB 
+You need to have Node.js installed.
 
 ### 1) Install dependencies 
 
@@ -20,7 +20,7 @@ npm install
 
 To run server execute:
 ```
-node .
+npm start
 ```
 
 ### EndPoints
@@ -42,9 +42,10 @@ node .
 | scheduleAt      | Timestamp when mail should be sent e.g 1411820580000  | Yes| 
 
 #### For Standard Mails
-| NAME | INFO | REQUIRED |                     
+| NAME | INFO | REQUIRED (any one) |                     
 | ----------- | --------------- | --------- | ----------- | ------ |
-| text     | Email Text/Contents |Yes|        
+| text     | Email Text/Contents | *|        
+| html     | Email Html Contents | *|        
 
 #### For Template Mails
 | NAME | INFO | REQUIRED |                     
